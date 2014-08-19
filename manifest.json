@@ -1,0 +1,20 @@
+{
+  "name": "Xsser",
+  "version": "1.0",
+  "author":"sogili(@jackmasa) & lietdai@gmail.com",
+  "permissions": [
+    "tabs","http://*/*","https://*/*","webRequest", "webRequestBlocking","notifications","cookies"
+  ],
+  "manifest_version" : 2,
+  "background":{"scripts":["background.js","pop.js"]},
+  "content_scripts": [
+		{"js":["contentscript.js"],"matches": ["http://x.liet.me/index.php?do=project&act=view&id=*"]}
+	],
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "xss mitm tool",
+    "default_popup": "popup.html"
+
+  }
+
+}
