@@ -8,7 +8,7 @@
   "manifest_version" : 2,
   "background":{"scripts":["background.js","pop.js"]},
   "content_scripts": [
-		{"js":["contentscript.js"],"matches": ["http://x.liet.me/index.php?do=project&act=view&id=*"]}
+		{"js":["contentscript.js"],"matches": ["http://code4liet.duapp.com/index.php?do=project&act=view&id=*"]}
 	],
   "browser_action": {
     "default_icon": "icon.png",

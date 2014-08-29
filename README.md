@@ -1,4 +1,4 @@
 xss-mitm-attack
 ===============
 
-chrome extension for xss attack
+a chrome extension for xss attack
